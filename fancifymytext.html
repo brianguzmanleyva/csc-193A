@@ -13,25 +13,32 @@
 		
 
 		<!-- Your UI controls go here -->
+
+		 //Input field 4 rows by 30 columns
 		<fieldset>
 			<legend>Text </legend>
 			<textarea rows="4" cols="30" id="text_area" placeholder="Text"></textarea>
 		</fieldset>
 
+		//2nd input field with 3 buttons
 		<fieldset>
 			<legend> Fancify</legend>
 
+			//Bigger button
 			<button class="bigger_btn" type="button" onclick="fancifyMyText()">Bigger!</button>
 
+			//FancyShmancy button
 			<input type="radio" id="fancy_shmancy_btn" name="radio_btn" 
 				value="fancy_shmancy" checked onchange="modifyStyle()"> 
 				<label for="fancy_shmancy_btn">FancyShmancy</label>
-
+			
+			//BoringBetty button
 			<input type="radio" id="boring_betty_btn" name="radio_btn"
 				value="boring_betty" checked onchange="modifyStyle()">
 				<label for="boring_betty_btn">BoringBetty</label>
 		</fieldset>
 
+		//Moo button
 		<button type="button" onclick="mooChange()">Moo</button>
 		
 	</body>
